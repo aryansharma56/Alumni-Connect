@@ -10,7 +10,7 @@ firebaseConfig.js*
 
 node_modules
 dist
-
+Alumni-Connect
 dist-ssr
 *.local
 
