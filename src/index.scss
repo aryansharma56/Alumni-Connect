@@ -9,7 +9,8 @@ $linkedinBlue3: #004c75;
   line-height: 1.5;
   font-weight: 400;
   color: #212121;
-  background-color: rgba(224, 224, 224);
+  background-color: #5A72A0;
+  color: #EEEEEE;
 }
 
 .common-input {
@@ -23,9 +24,11 @@ $linkedinBlue3: #004c75;
   font-family: system-ui;
   font-size: 16px;
 }
+
 .common-input:focus {
   outline: 1px solid $linkedinBlue1;
 }
+
 ::placeholder {
   font-family: system-ui;
   font-size: 16px;
@@ -46,6 +49,7 @@ $linkedinBlue3: #004c75;
 .common-textArea:focus {
   outline: 1px solid $linkedinBlue1;
 }
+
 ::placeholder {
   font-family: system-ui;
   font-size: 16px;

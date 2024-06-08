@@ -5,16 +5,17 @@ $linkedinBlue3: #004c75;
 body {
   margin: 0;
   padding: 0;
+  background-color: #002d45;
 }
 
 .login-wrapper {
-  background-color: white !important;
+  // background-color: white !important;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   height: 100vh;
-  
+
 }
 
 .login-btn {
@@ -31,9 +32,15 @@ body {
   font-size: 18px;
   margin-top: 20px;
 }
-.transition{
-  width: 200px;
+
+.transition {
+  width: 400px;
+  justify-content: center;
+  margin-left: 250px;
+  // background-color: red;
+  color: pink;
 }
+
 .login-btn:hover {
   background-color: $linkedinBlue3;
 }
@@ -46,7 +53,7 @@ body {
 }
 
 .bmpsLogo {
-  position:absolute;
+  position: absolute;
   left: 3px;
   top: 3px;
   margin: 4px;
@@ -62,6 +69,7 @@ body {
   text-align: center;
   height: 1.5em;
   opacity: 0.5;
+
   &:before {
     content: "";
     // use the linear-gradient for the fading effect
@@ -73,6 +81,7 @@ body {
     width: 100%;
     height: 1px;
   }
+
   &:after {
     content: attr(data-content);
     position: relative;

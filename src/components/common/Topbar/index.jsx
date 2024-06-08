@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import BMPSlogo from "../../../assets/bmpslogo.jpg";
+import BMPSlogo from "../../../assets/bmps-logo-png.png";
 import user from "../../../assets/user.png";
 import SearchUsers from "../SearchUsers";
 import {
