@@ -6,11 +6,10 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-firebaseConfig.js*
+
 
 node_modules
 dist
-Alumni-Connect
 dist-ssr
 *.local
 
@@ -19,6 +18,7 @@ dist-ssr
 !.vscode/extensions.json
 .idea
 .DS_Store
+.cph
 *.suo
 *.ntvs*
 *.njsproj
