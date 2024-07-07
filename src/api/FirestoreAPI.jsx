@@ -84,13 +84,16 @@ export const postUserData = (object) => {
 
 export const getCurrentUser = (setCurrentUser) => {
   onSnapshot(userRef, (response) => {
+    // console.log('reached firebase api',response.docs.data)
     setCurrentUser(
       response.docs
         .map((docs) => {
           return { ...docs.data(), id: docs.id };
         })
         .filter((item) => {
-          return item.email === localStorage.getItem("userEmail");
+          // console.log(item)
+          // console.log(localStorage.getItem('userEmail'))
+          return item.email === localStorage.getItem('userEmail');
         })[0]
     );
   });
